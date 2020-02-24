@@ -11,14 +11,14 @@
 
 <script>
 if( window.innerWidth < 460 ) {
-$(".article__row-shadow").hide()
+$(".container-class").hide()
 $(document).ready(function() {
                 $("button").click(function() {
-                    $(".article__row-shadow").show();
+                    $(".container-class").show();
                 });
             });
 } else {
-	$(".article__row-shadow").show()
+	$(".container-class").show()
 } 
 </script>
 </body>
